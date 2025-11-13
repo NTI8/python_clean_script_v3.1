@@ -110,7 +110,13 @@ python ocr.py "C:\Users\abdoh\Downloads\11C" --lang jpn --min-conf 20 --psm 6
 ```bash
 python ocr.py "C:\Users\abdoh\Downloads\11C" --lang jpn_vert --min-conf 20 --psm 6
 ```
-
+PS C:\Users\abdoh\Downloads\testScript> python ocr.py "C:\Users\abdoh\Downloads\11C" --lang jpn 
+[i] Input folder: C:\Users\abdoh\Downloads\11C
+[i] Found 2 image(s) in C:\Users\abdoh\Downloads\11C
+[i] Language: eng, Min confidence: 30.0, PSM: 6, In-place: False
+Cleaning images: 100%|███████████████████████████████████████████████████████| 2/2 [00:36<00:00, 18.46s/img]
+[i] Done. Cleaned 2/2 image(s).
+PS C:\Users\abdoh\Downloads\testScript> 
 ---
 
 ## 5. Useful options (CLI flags)
